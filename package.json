@@ -1,0 +1,18 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "dependencies": {
+    "@dojo/framework": "~3.0.0",
+    "tslib": "~1.8.1"
+  },
+  "scripts": {
+    "start": "dojo build -s -p 80"
+  },
+  "devDependencies": {
+    "@dojo/cli": "^3.0.0",
+    "@dojo/cli-build-app": "~3.0.0",
+    "@dojo/cli-test-intern": "~3.0.0",
+    "@types/node": "~9.6.5",
+    "typescript": "~2.6.1"
+  }
+}
